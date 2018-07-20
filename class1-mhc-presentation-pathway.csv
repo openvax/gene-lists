@@ -1,0 +1,13 @@
+ensembl_id,name,function
+ENSG00000240065,PSMB9,proteasome subunit
+ENSG00000204264,PSMB8,proteasome subunit
+ENSG00000168394,TAP1,peptide transport
+ENSG00000204267,TAP2,peptide transport
+ENSG00000179218,CALR,peptide loading
+ENSG00000127022,CANX,peptide loading
+ENSG00000167004,PDIA3,peptide loading
+ENSG00000231925,TAPBP,peptide loading
+ENSG00000140853,NLRC5,transcription factor
+ENSG00000125347,IRF1,transcription factor
+ENSG00000164307,ERAP1,peptidase
+ENSG00000164308,ERAP2,peptidase
