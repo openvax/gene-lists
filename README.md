@@ -10,5 +10,5 @@ Sources:
     * peptide transporters TAP1/2
     * chaperones calreticulin, calnexin, ERP57, and tapasin
     * IFR-1 and NLRC5
-    
- 
+* [Expression of Antigen Processing and Presenting Molecules in Brain Metastasis of Breast Cancer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3365630/)
+    * "β2-microgloblin, transporter associated with antigen processing (TAP) 1, TAP2 and calnexin are down-regulated in brain lesions compared with unpaired breast lesions"
