@@ -1,6 +1,7 @@
 ensembl_id,name,function
-ENSG00000240065,PSMB9,proteasome subunit
-ENSG00000204264,PSMB8,proteasome subunit
+ENSG00000204264,PSMB8,immunoproteasome
+ENSG00000240065,PSMB9,immunoproteasome
+ENSG00000205220,PSMB10,immunoproteasome
 ENSG00000168394,TAP1,peptide transport
 ENSG00000204267,TAP2,peptide transport
 ENSG00000179218,CALR,peptide loading
@@ -15,3 +16,4 @@ ENSG00000166710,B2M,MHC subunit
 ENSG00000206503,HLA-A,MHC subunit
 ENSG00000234745,HLA-B,MHC subunit
 ENSG00000204525,HLA-C,MHC subunit
+
