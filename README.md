@@ -36,7 +36,7 @@ Sources:
 
 Cancer genes and recurrent mutations extract from [Comprehensive Characterization of Cancer Driver Genes and Mutations](https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X). 
 
-Genes extracted from Table S1, mutations extracted from Table S4. 
+Genes extracted from Table S1, mutations extracted from Table S4.
 
-Both datasets were annotated with Ensembl IDs using Ensembl release 82. 
+Both datasets were annotated with Ensembl IDs using Ensembl release 92. 
 
