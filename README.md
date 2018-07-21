@@ -34,4 +34,4 @@ Sources:
 
 ## Recurrently mutated cancer genes
 
-Tier 1 COSMIC variants downloaded from https://cancer.sanger.ac.uk/cosmic/census?tier=1 on July 21st, 2018. Annotated with Ensembl ID (using Ensembl release 82)
+COSMIC cancer genes downloaded from https://github.com/CSB5/driver_evaluation/blob/master/driver_evaluation/GOLD_STANDARD/cancer_gene_census_06_26_2015.tsv. Future versions should use Tier 1 COSMIC genes from https://cancer.sanger.ac.uk/cosmic/census?tier=1, but login functionality was broken as of July 21st, 2018. Annotated with Ensembl ID using Ensembl release 82. 
