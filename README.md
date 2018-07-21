@@ -34,4 +34,9 @@ Sources:
 
 ## Recurrently mutated cancer genes
 
-COSMIC cancer genes downloaded from https://github.com/CSB5/driver_evaluation/blob/master/driver_evaluation/GOLD_STANDARD/cancer_gene_census_06_26_2015.tsv. Future versions should use Tier 1 COSMIC genes from https://cancer.sanger.ac.uk/cosmic/census?tier=1, but login functionality was broken as of July 21st, 2018. Annotated with Ensembl ID using Ensembl release 82. 
+Cancer genes and recurrent mutations extract from [Comprehensive Characterization of Cancer Driver Genes and Mutations](https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X). 
+
+Genes extracted from Table S1, mutations extracted from Table S4. 
+
+Both datasets were annotated with Ensembl IDs using Ensembl release 82. 
+
