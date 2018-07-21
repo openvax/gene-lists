@@ -1,4 +1,4 @@
-Gene,Cancer,KEY,Tumor suppressor or oncogene prediction (by 20/20+),Decision,Tissue Frequency,Pancan Frequency,Ensembl_ID
+Gene,Cancer,KEY,Function,Decision,Tissue Frequency,Pancan Frequency,Ensembl_ID
 ABL1,PANCAN,ABL1_PANCAN,,rescued,,1.17%,ENSG00000097007
 ACVR1,UCEC,ACVR1_UCEC,oncogene,official,5.30%,0.75%,ENSG00000115170
 ACVR1B,PANCAN,ACVR1B_PANCAN,possible tsg,official,,1.09%,ENSG00000135503
