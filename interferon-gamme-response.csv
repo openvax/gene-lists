@@ -1,0 +1,10 @@
+ensembl_id,name,function
+ENSG00000027697,IFNGR1,receptor
+ENSG00000159128,IFNGR2,receptor
+ENSG00000115415,STAT1,signal transducer
+ENSG00000170581,STAT2,signal transducer
+ENSG00000168610,STAT3,signal transducer
+ENSG00000162434,JAK1,kinase
+ENSG00000096968,JAK2,kinase
+ENSG00000185338,SOCS1,negative regulator
+ENSG00000184557,SOCS3,negative regulator
