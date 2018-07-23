@@ -1,20 +1,20 @@
-Gene,Function,Ensembl Gene ID
-PSMB8,immunoproteasome,ENSG00000204264
-PSMB9,immunoproteasome,ENSG00000240065
-PSMB10,immunoproteasome,ENSG00000205220
-TAP1,peptide transport,ENSG00000168394
-TAP2,peptide transport,ENSG00000204267
-CALR,peptide loading,ENSG00000179218
-CANX,peptide loading,ENSG00000127022
-PDIA3,peptide loading,ENSG00000167004
-TAPBP,peptide loading,ENSG00000231925
-TAPBPL,peptide loading,ENSG00000139192
-NLRC5,transcription factor,ENSG00000140853
-IRF1,transcription factor,ENSG00000125347
-ERAP1,peptidase,ENSG00000164307
-ERAP2,peptidase,ENSG00000164308
-B2M,MHC subunit,ENSG00000166710
-HLA-A,MHC subunit,ENSG00000206503
-HLA-B,MHC subunit,ENSG00000234745
-HLA-C,MHC subunit,ENSG00000204525
+Gene,Name,Function,Ensembl Gene ID
+PSMB8,proteasome subunit beta 8,immunoproteasome,ENSG00000204264
+PSMB9,proteasome subunit beta 9,immunoproteasome,ENSG00000240065
+PSMB10,proteasome subunit beta 10,immunoproteasome,ENSG00000205220
+TAP1,transporter associated with antigen processing 1,peptide transport,ENSG00000168394
+TAP2,transporter associated with antigen processing 2,peptide transport,ENSG00000204267
+CALR,calreticulin,peptide loading,ENSG00000179218
+CANX,calnexin,peptide loading,ENSG00000127022
+PDIA3,,peptide loading,ENSG00000167004
+TAPBP,,peptide loading,ENSG00000231925
+TAPBPL,,peptide loading,ENSG00000139192
+NLRC5,,transcription factor,ENSG00000140853
+IRF1,,transcription factor,ENSG00000125347
+ERAP1,,peptidase,ENSG00000164307
+ERAP2,,peptidase,ENSG00000164308
+B2M,,MHC subunit,ENSG00000166710
+HLA-A,,MHC subunit,ENSG00000206503
+HLA-B,,MHC subunit,ENSG00000234745
+HLA-C,,MHC subunit,ENSG00000204525
 
