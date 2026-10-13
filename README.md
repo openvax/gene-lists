@@ -1,8 +1,12 @@
 # gene-lists
 
-Gene lists related to cancer immunotherapy
+Gene lists related to cancer immunotherapy, as CSV files. Every file has
+`Symbol`, `Aliases` and `Ensembl_Gene_ID` columns, plus columns specific to the
+list.
 
 ## Cancer-testis antigens
+
+File: `cancer-testis-antigens.csv`
 
 Last updated: September 10th, 2024
 
@@ -17,6 +21,8 @@ Methodology:
 
 ## Class I MHC antigen presentation
 
+File: `class1-mhc-presentation-pathway.csv`
+
 Last updated: July 21st, 2018
 
 Sources:
@@ -25,13 +31,15 @@ Sources:
   - LMP2/7
   - peptide transporters TAP1/2
   - chaperones calreticulin, calnexin, ERP57, and tapasin
-  - IFR-1 and NLRC5
+  - IRF-1 and NLRC5
 - [Expression of Antigen Processing and Presenting Molecules in Brain Metastasis of Breast Cancer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3365630/)
   - "β2-microgloblin, transporter associated with antigen processing (TAP) 1, TAP2 and calnexin are down-regulated in brain lesions compared with unpaired breast lesions"
 - [NLRC5/MHC class I transactivator is a target for immune evasion in cancer](http://www.pnas.org/content/early/2016/05/05/1602069113.short)
 - [TAPBPR: a new player in the MHC class I presentation pathway](https://www.ncbi.nlm.nih.gov/pubmed/25720504)
 
 ## Interferon-gamma response
+
+File: `interferon-response.csv`
 
 Last updated: July 21st, 2018
 
@@ -50,7 +58,7 @@ Sources:
 
 Last updated: July 21st, 2018
 
-Cancer genes and recurrent mutations extract from [Comprehensive Characterization of Cancer Driver Genes and Mutations](<https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X>).
+Cancer genes and recurrent mutations extracted from [Comprehensive Characterization of Cancer Driver Genes and Mutations](<https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X>).
 
 Genes extracted from Table S1 into `cancer-driver-genes.csv`. Mutations extracted from Table S4 into `cancer-driver-variants.csv`.
 
