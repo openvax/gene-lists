@@ -36,8 +36,16 @@ def main(argv=None):
     from pyensembl import EnsemblRelease, ensembl_grch38
 
     genome = ensembl_grch38 if args.release is None else EnsemblRelease(args.release, species="human")
+    if not genome.installed():
+        parser.error(
+            "Install the selected human annotation first: "
+            f"pyensembl install --release {genome.release} --species human"
+        )
     files = args.files or sorted(Path(__file__).resolve().parents[1].glob("*.csv"))
-    problems = sum(validate_file(path, genome) for path in files)
+    try:
+        problems = sum(validate_file(path, genome) for path in files)
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
     print(f"Checked {len(files)} files; {problems} gene ID or symbol discrepancies.")
     return int(problems != 0)
 
