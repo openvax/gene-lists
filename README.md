@@ -63,3 +63,19 @@ Cancer genes and recurrent mutations extracted from [Comprehensive Characterizat
 Genes extracted from Table S1 into `cancer-driver-genes.csv`. Mutations extracted from Table S4 into `cancer-driver-variants.csv`.
 
 Both datasets were annotated with Ensembl IDs using Ensembl release 92.
+
+## Check gene IDs locally
+
+The optional validator requires PyEnsembl and an already installed human
+annotation. Run it from the repository root:
+
+```sh
+python scripts/validate_gene_ids.py --release 92 cancer-driver-genes.csv cancer-driver-variants.csv
+```
+
+Omit the filenames to check all repository CSVs. Omit `--release` to use
+PyEnsembl's default GRCh38 annotation. The cancer-driver tables were annotated
+with release 92, so a newer annotation can legitimately report renamed or
+retired genes. The command prints discrepancies and exits 1 if any are found;
+it does not change the CSVs. It uses the current `Symbol` and `Ensembl_Gene_ID`
+columns. Validation is an explicit command rather than an import-time test.
